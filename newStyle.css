@@ -1,0 +1,106 @@
+html, input::placeholder, button {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    margin: 0px;
+    overflow: hidden;
+}
+
+header {
+    height: 15vh;
+    width: 100vw;
+    background-color: #001d3d;
+}
+
+form {
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+label {
+    color: #ffd60a;
+    font-weight: 500;
+}
+
+#columns, #r, #g, #b {
+    border: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1em;
+    color: #001d3d;
+    background-color: #f8edeb;
+    font-weight: 500;
+}
+
+#columns {
+    border-radius: 0.3rem;
+    width: 3rem;
+    text-align: center;
+}
+
+#columns:focus, #r:focus, #g:focus, #b:focus {
+    outline: none;
+}
+
+#middle {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+input {
+    border-radius: 0.4rem;
+    width: 5rem;
+    height: 1.4rem;
+}
+
+input::placeholder {
+    color: #001d3d;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#submit, #random {
+    background-color: #001d3d;
+    border: 2px solid #ffd60a;
+    height: 1.6rem;
+    border-radius: 0.4rem;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #ffd60a;
+}
+
+#submit {
+    width: 5rem;
+}
+
+#random {
+    width: 13rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+.colorBox {
+    display: inline-block;
+    transition: 0.5s width, 0.5s height;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.vertical {
+    height: 85vh;
+}
+
+.horizontal {
+    width: 100vw;
+}
+
